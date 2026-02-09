@@ -29,4 +29,4 @@ pertanyaan refleksi
     - data hilang otomatis saat tab ditutup
     - tidak bocor ke tab lain
     - cocok untuk daata sementara
-3. 
+3. menggunakan localStorage. agar saat browser ditutup data to do list yang kita simpan akan tetap ada di browser.
