@@ -22,3 +22,11 @@ Eksperimen 4: Decision Quiz
     jawaban: Cookies (HttpOnly), karena tiu adalah satu-satunya yang bisa melindungi token dari XSS dan dikirim ke server
 - skenario 4: Shopping Cart (tanpa login)
     jawaban: LocalStorage, karena cocok untuk shopping cart yang persist tanpa perlu ke server
+
+pertanyaan refleksi
+1. karena LocalStorage bisa diakses menggunakan java script sehingga mudah diakses oleh attacker. maka lebih baik disimpan di cookie httpOnly dengan secure
+2. keuntungannya adalah:
+    - data hilang otomatis saat tab ditutup
+    - tidak bocor ke tab lain
+    - cocok untuk daata sementara
+3. 
